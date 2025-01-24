@@ -1,0 +1,41 @@
+const cars =[
+    {
+        name:'BMW',
+        plate:'RW123',
+        price:'12M',
+        year:'2023',
+        kilometers:'0KM'
+    },{
+        name:'BENZI',
+        plate:'RW233',
+        price:'21M',
+        year:'2022',
+        kilometers:'1KM'
+    },{
+        name:'ZUBARU',
+        plate:'RW322',
+        price:'23M',
+        year:'2025',
+        kilometers:'0KM'
+    },{
+        name:'V8',
+        plate:'RW566',
+        price:'80M',
+        year:'2023',
+        kilometers:'0KM'
+    },{
+        name:'TOYOTA',
+        plate:'RW445',
+        price:'50M',
+        year:'2023',
+        kilometers:'0KM'
+    }
+]
+// console.log(cars[3]);
+cars.forEach(items=>{
+    console.log(items.name)
+    console.log(items.plate)
+    console.log(items.price)
+    console.log(items.kilometers);
+    console.log("\n")
+})

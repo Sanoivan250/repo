@@ -1,0 +1,52 @@
+
+.navbar {
+   
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    height: 80px;
+    padding: 2%;
+    
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: center;
+}
+
+
+.navbar a {
+   float: left;
+   justify-content: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.movies{
+    float: inline-start;
+    padding: 12px 10px;
+    
+}
+.movies img{
+    height: 200px;
+    width: 200px;
+    
+
+}

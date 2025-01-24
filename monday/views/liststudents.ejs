@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student List</title>
+</head>
+<body>
+    <h1>List of Students</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Level</th>
+            <th>email</th>
+            <th>phone</th>
+            <th>home</th>
+        </tr>
+        <% students.forEach(student => { %>
+            <tr>
+                <td><%= student.id %></td>
+                <td><%= student.name %></td>
+                <td><%= student.age %></td>
+                <td><%= student.level %></td>
+                <td><%= student.email %></td>
+                <td><%= student.phone %></td>
+                <td><%= student.home %></td>
+            </tr>
+        <% }); %>
+    </table>
+</body>
+</html>

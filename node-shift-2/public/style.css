@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: red;
+}
+.blog-card{
+    width: 70%;
+    margin: auto;
+    border: 2px solid white;
+}
+.blog-card p{
+    width: 90%;
+}
+
+
